@@ -20,7 +20,6 @@ setup(name='SpectraViewer',
       url='',
       package_dir={'': 'src'},
       packages=find_packages('src'),
-      },
       package_data={},
       requires=[],
       )
