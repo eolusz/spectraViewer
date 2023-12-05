@@ -13,7 +13,7 @@ class MatplotlibWidget(FigureCanvas):
 			bgcolor=parent.palette().window().color().getRgbF()
 		fig = Figure(figsize=(width, height), dpi=dpi, facecolor=bgcolor, edgecolor=bgcolor)
 		self.axes = fig.add_subplot(111)
-		self.axes.hold(False)
+		#self.axes.hold(False)
 		FigureCanvas.__init__(self, fig)
 		self.setParent(parent)
 		FigureCanvas.updateGeometry(self)

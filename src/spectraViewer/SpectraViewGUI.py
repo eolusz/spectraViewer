@@ -474,4 +474,4 @@ class Ui_MainWindow(object):
         self.label_22.setText(_translate("MainWindow", "Data type:"))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_4), _translate("MainWindow", "Others"))
 
-from mplwidget import  MatplotlibWidget
+from .mplwidget import  MatplotlibWidget

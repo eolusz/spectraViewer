@@ -1,7 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from logbookATAS import Ui_LogBookDialog
-from attachement import QAttachment
-from make_entry import logbook_entryLinux as logbook_entry
+from .logbookATAS import Ui_LogBookDialog
+from .attachement import QAttachment
+from .make_entry import logbook_entryLinux as logbook_entry
 
 class LaserLogBook(Ui_LogBookDialog):
 	def __init__(self, parent=None, Type="Measurement", Subject=None, attachments="None"):
